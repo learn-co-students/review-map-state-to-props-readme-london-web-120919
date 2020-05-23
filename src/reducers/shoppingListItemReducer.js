@@ -15,6 +15,7 @@ export default function shoppingListItemReducer(state = {
         users: state.users.concat(state.users.length + 1)
       });
 
+    
     default:
       return state;
   }
